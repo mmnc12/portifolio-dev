@@ -1,0 +1,77 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 120px 163px 
+}
+
+.header {
+  width: 680px;
+  height: 327px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 180px 120px;
+  
+}
+
+.info .header img {
+  display: flex;
+  margin: 0 auto 56px;
+  width: 98px;
+  height: 98px;
+}
+
+.info .header h1 {
+  font-family: var(--font-family-asap);
+  color: var(--gray-600);
+  margin-top: 8px;
+  margin-bottom: 20px;
+  font-size: 54px;
+}
+
+.p {
+  font-family: var(--font-family-maven-pro);
+  color: var(--gray-400);
+  font-size: 14px;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: var(--font-family-inconsolata);
+  color: var(--gray-500);
+}
+
+.subtitle em {
+  color: var(--bg-color-red);
+  font-style: normal;
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -80px;
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--gray-300);
+  padding: 8px 16px;
+  margin-right: 8px;
+  border-radius: 25px;
+  color: var(--gray-500);
+  font-family: var(--font-family-maven-pro);
+}
+
+.footer {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 57px;
+}

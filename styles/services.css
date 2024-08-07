@@ -1,0 +1,69 @@
+#services {
+  display: flex;
+  background-color: var(--gray-100);
+  flex-direction: column;
+  padding: 88px 120px 120px;
+  height: 480px;
+}
+
+#services span {
+  font-family: var(--font-family-inconsolata);
+  font-size: 20px;
+  color: var(--bg-color-red);
+}
+
+#services h2 {
+  font-family: var(--font-family-asap);
+  color: var(--gray-600);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#services .header {
+  width: 1040px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  
+}
+
+#services .header h2 {
+  margin-top: 8px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 56px;
+}
+
+.cards a {
+  text-align: left;
+  width: 280px;
+  height: 155px;
+  padding: 20px;
+  border: 3px solid var(--gray-200);
+  border-radius: 12px;
+}
+
+.cards a img {
+  width: 48px;
+  height: 48px;
+}
+
+.cards a h3 {
+  font-family: var(--font-family-asap);
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--gray-600);
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.cards a p {
+  font-family: var(--font-family-maven-pro);
+  color: var(--gray-600);
+  font-size: 14px;
+}

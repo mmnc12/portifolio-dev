@@ -1,0 +1,72 @@
+#contect {
+  display: flex;
+  background-image: url(../assets/Background_Contacts.png);
+  background-size: cover;
+  max-height: 787px;
+  padding: 128px 120px 200px;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contect .header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 91px;
+  margin: 0;
+}
+
+#contect .header p {
+  font-family: var(--font-family-inconsolata);
+  font-size: 20px;
+  font-weight: normal;
+  color: var(--bg-color-purple);
+} 
+
+#contect .header h2 {
+  font-family: var(--font-family-asap);
+  font-size: 24px;
+  color: var(--gray-600);
+}
+
+#contect .header span {
+  font-family: var(--font-family-maven-pro);
+  font-size: 16px;
+  color: var(--gray-500);
+}
+
+#contect .links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 48px;
+}
+
+#contect .links a {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  width: 400px;
+  height: 68px;
+  background-color: var(--gray-300);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#contect .links a div {
+  display: flex;
+  gap: 4px;
+}
+
+
+#contect .links a div img {
+  height: 23px;
+  width: 23;
+}
+
+#contect .links a div h3 {
+  font-family: var(--font-family-maven-pro);
+  font-size: 16px;
+  color: var(--gray-500);
+  font-weight: normal;
+}

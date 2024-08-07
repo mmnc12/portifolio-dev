@@ -1,0 +1,74 @@
+#project {
+  display: flex;
+  background-color: var(--gray-200);
+  height: 917px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 72px 120px 144px 120px;
+  flex-direction: column;
+}
+
+#project span {
+  font-family: var(--font-family-inconsolata);
+  font-size: 20px;
+  color: var(--bg-color-red);
+}
+
+#project h2 {
+  font-family: var(--font-family-asap);
+  color: var(--gray-600);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#project .header {
+  width: 1040px;
+  height: 61px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#project .grid {
+  display: grid;
+  max-width: 1040px;
+  max-height: 584px;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+#project .grid div {
+  max-width: 330px;
+  max-height: 280px;
+  margin: 20px 12px 12px;
+  background-color: var(--gray-300);
+  padding: 12px;
+  border-radius: 12px;
+  gap: 24px;
+
+  h3 {
+    font-family: var(--font-family-asap);
+    text-align: left;
+    font-size: 16px;
+    color: var(--gray-600);
+    margin-top: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  p {
+    text-align: left;
+    font-family: var(--font-family-maven-pro);
+    font-size: 14px;
+    color: var(--gray-500);
+    line-height: 1.5;
+  }
+
+  img {
+    width: 306px;
+    height: 156px;
+  }
+}
